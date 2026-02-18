@@ -1,9 +1,9 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
-import App from "./App";
-import { initAuthListener } from "@/lib/auth";
-import { getActiveThemeClass } from "@/lib/user-settings";
+import App from "../App";
+import { initAuthListener } from "../lib/auth";
+import { getActiveThemeClass } from "../lib/user-settings";
 
 // Simple global first-load loader (prevents blank flash)
 const rootEl = document.getElementById("root")!;
